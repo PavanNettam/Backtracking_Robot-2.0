@@ -1,5 +1,5 @@
 # Backtrack-2.0
-The same problem as in Backtrack is solved using Graph implementation. BFS and DFS algorithms are used to find the path efficiently.<br>
+The same problem as in Backtrack is solved using Graph implementation. BFS and DFS algorithms are used to find the path efficiently.<br><br>
 A particular ‘RPA’ firm is in the process of developing a restaurant which has bot waiters. Bot needs to deliver the food from the specified exit door, of the kitchen with multiple exit doors to the specified table.
 The restaurant has blocked areas where Bot cannot move and the passages where it can move. The layout of restaurant can be rectangular or square.
 Layout map can be considered as a matrix of cells where cell with ‘0’ represents the passage and cell with ‘1’, the blocked area. Bot has memorised this map in a particular format for faster processing. Given a particular table location bot needs to find the path from the kitchen, starting from the specified exit door to the table to serve the customer. Bot has a constraint it can move only in either right or down direction one step at a time (i.e. only to the adjacent cell in right or down direction provided it is not blocked) without preference to any particular direction.
